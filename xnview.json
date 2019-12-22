@@ -1,0 +1,35 @@
+{
+    "homepage": "https://www.xnview.com/",
+    "version": "2.49.2",
+    "url": "https://download.xnview.com/XnView-win-full.zip",
+    "hash": "e77c30c525d24beab2d01642ad4ff1307372c1c7383c3fa065e494c2ebf195fc",
+    "extract_dir": "XnView",
+    "shortcuts": [
+        [
+            "xnview.exe",
+            "XnView"
+        ]
+    ],
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\xnview.ini\")) { New-Item \"$dir\\xnview.ini\" -Type File | Out-Null }",
+        "if (-not (Test-Path \"$persist_dir\\bookmark.ini\")) { New-Item \"$dir\\bookmark.ini\" -Type File | Out-Null }",
+        "if (-not (Test-Path \"$persist_dir\\category.db\")) { New-Item \"$dir\\category.db\" -Type File | Out-Null }"
+    ],
+    "persist": [
+        "xnview.ini",
+        "bookmark.ini",
+        "category.db",
+        "cache"
+    ],
+    "checkver": {
+        "url": "https://www.xnview.com/xnview_update.txt",
+        "regex": "version=([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.xnview.com/XnView-win-full.zip",
+        "hash": {
+            "url": "https://www.xnview.com/en/xnview/",
+            "regex": "$basename:\\s+$sha256"
+        }
+    }
+}

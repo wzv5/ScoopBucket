@@ -1,0 +1,42 @@
+{
+    "homepage": "http://www.pspad.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.pspad.com/en/licence.php"
+    },
+    "version": "5.0.1",
+    "url": "https://www.pspad.com/files/pspad/pspad501en.zip",
+    "hash": "md5:91a6e884bca9a5bd881e726f608be1ab",
+    "shortcuts": [
+        [
+            "PSPad.exe",
+            "PSPad"
+        ]
+    ],
+    "persist": [
+        "PSPad.ini",
+        "PSPad_MU.ini",
+        "Recent.ini"
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir/PSPad.ini\")) { Set-Content \"$dir/PSPad.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir/PSPad_MU.ini\")) { Set-Content \"$dir/PSPad_MU.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir/Recent.ini\")) { Set-Content \"$dir/Recent.ini\" -Value $null }"
+    ],
+    "uninstaller": {
+        "script": [
+            "$persist_dir = persistdir $app $global",
+            "if ((Get-Item \"$dir/PSPad.ini\").LinkType -ne 'HardLink') { cp \"$dir/PSPad.ini\" \"$persist_dir/PSPad.ini\" }",
+            "if ((Get-Item \"$dir/PSPad_MU.ini\").LinkType -ne 'HardLink') { cp \"$dir/PSPad_MU.ini\" \"$persist_dir/PSPad_MU.ini\" }",
+            "if ((Get-Item \"$dir/Recent.ini\").LinkType -ne 'HardLink') { cp \"$dir/Recent.ini\" \"$persist_dir/Recent.ini\" }"
+        ]
+    },
+    "checkver": "Full version:\\D*([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.pspad.com/files/pspad/pspad$cleanVersionen.zip",
+        "hash": {
+            "url": "https://www.pspad.com/en/download.php",
+            "find": "([a-fA-F0-9]{32}).*(?:$basename)"
+        }
+    }
+}

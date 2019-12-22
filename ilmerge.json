@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.nuget.org/packages/ilmerge",
+    "version": "3.0.29",
+    "url": "https://www.nuget.org/api/v2/package/ilmerge/3.0.29#/dl.7z",
+    "hash": "8bbadce23f2ebfad44beb1d729f1274905a8c7d748efffc2b78e640689ec7eeb",
+    "extract_dir": "tools/net452",
+    "bin": "ILMerge.exe",
+    "checkver": {
+        "url": "https://api.nuget.org/v3-flatcontainer/ilmerge/index.json",
+        "jsonpath": "$.versions[-1:]"
+    },
+    "autoupdate": {
+        "url": "https://www.nuget.org/api/v2/package/ilmerge/$version#/dl.7z"
+    }
+}

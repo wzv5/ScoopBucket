@@ -1,0 +1,55 @@
+{
+    "version": "3.46.2",
+    "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.",
+    "homepage": "https://filezilla-project.org/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.filezilla-project.org/client/FileZilla_3.46.2_win64.zip",
+            "hash": "sha512:eabd4085aca785b5ffc842b279cff815e40468a90ee8c2477e844045c76f1a433e4ee299c0f6fbdf8e546f78e7f702ac579ebc9974b5f1109f65ebfc8b74b7f0"
+        },
+        "32bit": {
+            "url": "https://download.filezilla-project.org/client/FileZilla_3.46.2_win32.zip",
+            "hash": "sha512:89ac995964daa08e8138b33f0cf7b7eeac355b4758d11ff70b2fa0b503a61bd880958579fef6c3f4f585a7bb3e6a8edf9bf4acdff0a0aa01521fc6ea0f995558"
+        }
+    },
+    "extract_dir": "FileZilla-3.46.2",
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\fzdefaults.xml\")) {",
+        "    $currentDir = current_dir $dir",
+        "    $finalFile = '<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?><FileZilla3><Settings>'",
+        "    $finalFile += \"<Setting name=\"\"Config Location\"\">$currentDir\\data\\config</Setting>\"",
+        "    $finalFile += \"<Setting name=\"\"Cache directory\"\">$currentDir\\data\\cache</Setting>\"",
+        "    $finalFile += '</Settings></FileZilla3>'",
+        "    Set-Content \"$dir\\fzdefaults.xml\" -Value $finalFile -Encoding Ascii",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "filezilla.exe",
+            "FileZilla"
+        ]
+    ],
+    "persist": [
+        "fzdefaults.xml",
+        "data"
+    ],
+    "checkver": {
+        "url": "https://filezilla-project.org/download.php?show_all=1",
+        "re": "The latest stable version of FileZilla Client is ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.filezilla-project.org/client/FileZilla_$version_win64.zip"
+            },
+            "32bit": {
+                "url": "https://download.filezilla-project.org/client/FileZilla_$version_win32.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/FileZilla_$version.sha512"
+        },
+        "extract_dir": "FileZilla-$version"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "homepage": "https://tamlok.github.io/vnote/",
+    "description": "A Vim-inspired note-taking application that knows programmers and Markdown better.",
+    "license": "MIT",
+    "version": "2.8.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tamlok/vnote/releases/download/v2.8.2/VNote_win_X64_portable_2.8.2.zip",
+            "hash": "a2ac16ae3e2028f880bac0296ec09ccf8ecbcd5275e725f8fd8923816cdda9b8"
+        },
+        "32bit": {
+            "url": "https://github.com/tamlok/vnote/releases/download/v2.8.2/VNote_win_x86_portable_2.8.2.zip",
+            "hash": "45ef651c7d432261c3ddcdb9330c65975644b3fac4310a61b9da08888646579a"
+        }
+    },
+    "extract_dir": "VNote",
+    "persist": [
+        "vnote.ini",
+        "session.ini",
+        "styles",
+        "templates",
+        "themes"
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir/vnote.ini\")) { Set-Content \"$dir/vnote.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir/session.ini\")) { Set-Content \"$dir/session.ini\" -Value $null }"
+    ],
+    "uninstaller": {
+        "script": [
+            "$persist_dir = persistdir $app $global",
+            "if ((Get-Item \"$dir/vnote.ini\").LinkType -ne 'HardLink') { cp \"$dir/vnote.ini\" \"$persist_dir/vnote.ini\" }",
+            "if ((Get-Item \"$dir/session.ini\").LinkType -ne 'HardLink') { cp \"$dir/session.ini\" \"$persist_dir/session.ini\" }"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/tamlok/vnote"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tamlok/vnote/releases/download/v$version/VNote_win_X64_portable_$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/tamlok/vnote/releases/download/v$version/VNote_win_x86_portable_$version.zip"
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "VNote.exe",
+            "VNote"
+        ]
+    ]
+}

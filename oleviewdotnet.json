@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/tyranid/oleviewdotnet",
+    "version": "1.9",
+    "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v1.9/Release_v1.9.7z",
+    "hash": "f656a00032270dc38accc1b8cbe126be4e88d1f4131cbe83106f58c44680a5fb",
+    "shortcuts": [
+        [
+            "OleViewDotNet.exe",
+            "OleViewDotNet"
+        ],
+        [
+            "OleViewDotNet32.exe",
+            "OleViewDotNet32"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/tyranid/oleviewdotnet"
+    },
+    "autoupdate": {
+        "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v$version/Release_v$version.7z"
+    }
+}
