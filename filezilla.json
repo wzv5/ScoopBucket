@@ -20,6 +20,7 @@
         "    $finalFile = '<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?><FileZilla3><Settings>'",
         "    $finalFile += \"<Setting name=\"\"Config Location\"\">$currentDir\\data\\config</Setting>\"",
         "    $finalFile += \"<Setting name=\"\"Cache directory\"\">$currentDir\\data\\cache</Setting>\"",
+        "    $finalFile += \"<Setting name=\"\"Disable update check\"\">1</Setting>\"",
         "    $finalFile += '</Settings></FileZilla3>'",
         "    Set-Content \"$dir\\fzdefaults.xml\" -Value $finalFile -Encoding Ascii",
         "}"
