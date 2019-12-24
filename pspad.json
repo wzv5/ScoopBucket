@@ -23,14 +23,6 @@
         "if (!(Test-Path \"$persist_dir/PSPad_MU.ini\")) { Set-Content \"$dir/PSPad_MU.ini\" -Value $null }",
         "if (!(Test-Path \"$persist_dir/Recent.ini\")) { Set-Content \"$dir/Recent.ini\" -Value $null }"
     ],
-    "uninstaller": {
-        "script": [
-            "$persist_dir = persistdir $app $global",
-            "if ((Get-Item \"$dir/PSPad.ini\").LinkType -ne 'HardLink') { cp \"$dir/PSPad.ini\" \"$persist_dir/PSPad.ini\" }",
-            "if ((Get-Item \"$dir/PSPad_MU.ini\").LinkType -ne 'HardLink') { cp \"$dir/PSPad_MU.ini\" \"$persist_dir/PSPad_MU.ini\" }",
-            "if ((Get-Item \"$dir/Recent.ini\").LinkType -ne 'HardLink') { cp \"$dir/Recent.ini\" \"$persist_dir/Recent.ini\" }"
-        ]
-    },
     "checkver": "Full version:\\D*([\\d.]+)",
     "autoupdate": {
         "url": "https://www.pspad.com/files/pspad/pspad$cleanVersionen.zip",
