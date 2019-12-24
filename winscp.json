@@ -4,7 +4,7 @@
     "license": "GPL-3.0-or-later",
     "version": "5.15.9",
     "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/5.15.9/WinSCP-5.15.9-Setup.exe",
-    "hash": "03852d33980eed8ef383bc8e3251adedb906c18bc08eeeca184f1eef72ac69ad",
+    "hash": "9ea6e0c215cb883e6ef2cf428531bbd48f9e74d363b4eb041125130fd10dafba",
     "innosetup": true,
     "persist": "winscp.ini",
     "pre_install": [
