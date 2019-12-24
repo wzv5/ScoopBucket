@@ -3,9 +3,7 @@
     "version": "1733",
     "url": "https://dldir1.qq.com/music/clntupate/QQMusic_Setup_1733.exe#/dl.7z",
     "hash": "md5:633836ad3c1ca886e6cf8ea91de7fa60",
-    "installer": {
-        "script": "cp \"$dir/QQMusic.tpc\" \"$dir/instok\""
-    },
+    "post_install": "cp \"$dir/QQMusic.tpc\" \"$dir/instok\"",
     "shortcuts": [
         [
             "QQMusic.exe",

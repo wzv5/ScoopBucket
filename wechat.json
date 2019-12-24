@@ -3,11 +3,7 @@
     "version": "2.7.1",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
     "hash": "acf0415cb252e788f8b53ddaba41d4e984dad9435ef581bc027a8f5823f03e1f",
-    "installer": {
-        "script": [
-            "Remove-Item \"$dir\\`$_15_\", \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R5\" -Force -Recurse"
-        ]
-    },
+    "post_install": "Remove-Item \"$dir\\`$_15_\", \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R5\" -Force -Recurse",
     "shortcuts": [
         [
             "wechat.exe",

@@ -3,13 +3,11 @@
     "version": "10.26.5092.0",
     "url": "https://dldir1.qq.com/qqtv/TencentVideo10.26.5092.0.exe#/dl.7z",
     "hash": "c200686bd2d994797b73c1bd191992c9f16a048d756a4b8f8935dd68b4c5b993",
-    "installer": {
-        "script": [
-            "rm -r \"$dir/`$PLUGINSDIR\"",
-            "rm -r \"$dir/`$TEMP\"",
-            "cp \"$dir/QQLive.tpc\" \"$dir/instok\""
-        ]
-    },
+    "post_install": [
+        "rm -r \"$dir/`$PLUGINSDIR\"",
+        "rm -r \"$dir/`$TEMP\"",
+        "cp \"$dir/QQLive.tpc\" \"$dir/instok\""
+    ],
     "shortcuts": [
         [
             "QQLive.exe",
