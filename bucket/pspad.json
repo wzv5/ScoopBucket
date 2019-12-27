@@ -1,0 +1,34 @@
+{
+    "homepage": "http://www.pspad.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.pspad.com/en/licence.php"
+    },
+    "version": "5.0.2",
+    "url": "https://www.pspad.com/files/pspad/pspad502en.zip",
+    "hash": "md5:a300516d356baabafdfa8312a06cd2db",
+    "shortcuts": [
+        [
+            "PSPad.exe",
+            "PSPad"
+        ]
+    ],
+    "persist": [
+        "PSPad.ini",
+        "PSPad_MU.ini",
+        "Recent.ini"
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir/PSPad.ini\")) { Set-Content \"$dir/PSPad.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir/PSPad_MU.ini\")) { Set-Content \"$dir/PSPad_MU.ini\" -Value $null }",
+        "if (!(Test-Path \"$persist_dir/Recent.ini\")) { Set-Content \"$dir/Recent.ini\" -Value $null }"
+    ],
+    "checkver": "Full version:\\D*([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.pspad.com/files/pspad/pspad$cleanVersionen.zip",
+        "hash": {
+            "url": "https://www.pspad.com/en/download.php",
+            "find": "([a-fA-F0-9]{32}).*(?:$basename)"
+        }
+    }
+}
