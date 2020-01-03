@@ -23,6 +23,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | bh3                  | 崩坏 3（游戏）     | √        | ×        |
 | crystaldiskinfo      | -                  | √        | √        |
 | filezilla            | -                  | √        | √        |
+| gost                 | -                  | ×        | ×        |
 | ilmerge              | -                  | ×        | ×        |
 | inno-setup           | -                  | √        | ×        |
 | jadx                 | -                  | √        | ×        |
