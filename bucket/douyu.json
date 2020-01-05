@@ -1,0 +1,18 @@
+{
+    "homepage": "https://www.douyu.com/client",
+    "version": "8.1.2.0",
+    "url": "https://wsd-default.oss-cn-beijing.aliyuncs.com/dyadmin-ext/pkg/pc/Douyu_Live_PC_Client/20191225180714936/DouyuLive_8.1.2.0.exe#/dl.7z",
+    "hash": "e83f85ad06173b8d0af9407732c27ccb737a420088e89c99bf477951e4b86917",
+    "extract_dir": "Client",
+    "shortcuts": [
+        [
+            "DouyuLive.exe",
+            "Douyu"
+        ]
+    ],
+    "pre_install": "Remove-Item \"$dir/Application/dy_service.exe\"",
+    "checkver": "//(?<url>.+)/DouyuLive_([\\d.]+)\\.exe",
+    "autoupdate": {
+        "url": "https://$matchUrl/DouyuLive_$version.exe#/dl.7z"
+    }
+}
