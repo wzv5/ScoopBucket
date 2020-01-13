@@ -10,7 +10,6 @@
             "Douyu"
         ]
     ],
-    "pre_install": "Remove-Item \"$dir/Application/dy_service.exe\"",
     "checkver": "//(?<url>.+)/DouyuLive_([\\d.]+)\\.exe",
     "autoupdate": {
         "url": "https://$matchUrl/DouyuLive_$version.exe#/dl.7z"
