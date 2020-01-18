@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/microsoft/ApplicationInspector/",
+    "description": "A software characterization source code analyzer that helps you understand what a program does by identifying interesting features and characteristics using static analysis and a customizable json based rules engine.",
+    "license": "MIT",
+    "version": "1.0.19",
+    "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v.1.0.19/ApplicationInspector_windows_1.0.19.zip",
+    "hash": "72bf3ff26223fd54b85df31c8a74e1a333c8f857b4d59387ccc71fa9fbc7bddf",
+    "extract_dir": "ApplicationInspector_1.0.19",
+    "bin": "AppInspector.exe",
+    "checkver": {
+        "url": "https://github.com/microsoft/ApplicationInspector/releases/latest",
+        "regex": "/releases/tag/v\\.([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v.$version/ApplicationInspector_windows_$version.zip",
+        "hash": {
+            "url": "$baseurl/HASHES.txt",
+            "regex": "$sha256.*?$basename"
+        },
+        "extract_dir": "ApplicationInspector_$version"
+    }
+}
