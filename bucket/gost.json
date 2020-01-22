@@ -2,16 +2,16 @@
     "homepage": "https://github.com/ginuerzh/gost/",
     "description": "A simple security tunnel written in Golang.",
     "license": "MIT",
-    "version": "2.9.1",
+    "version": "2.9.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ginuerzh/gost/releases/download/v2.9.1/gost-windows-amd64-2.9.1.zip",
-            "hash": "8ef54da1d297cbe1ae61bfd69f0dade5b3f7deba6f662e306e04678660aa77fa",
+            "url": "https://github.com/ginuerzh/gost/releases/download/v2.9.2/gost-windows-amd64-2.9.2.zip",
+            "hash": "50b068ff2a81026e53a1ab77f2742c29e93035f0aa3190e0003daf16ab6e4092",
             "pre_install": "Rename-Item \"$dir/gost-windows-amd64.exe\" \"$dir/gost.exe\""
         },
         "32bit": {
-            "url": "https://github.com/ginuerzh/gost/releases/download/v2.9.1/gost-windows-386-2.9.1.zip",
-            "hash": "5b5ac05d9a6734f3bf9f544865fcca62be9f7ee6a484c215cfc4f251dc684fc6",
+            "url": "https://github.com/ginuerzh/gost/releases/download/v2.9.2/gost-windows-386-2.9.2.zip",
+            "hash": "039f4c311312f27db598539c300c56aafeeeabc32d051802cc45d2b2b6b62f70",
             "pre_install": "Rename-Item \"$dir/gost-windows-386.exe\" \"$dir/gost.exe\""
         }
     },
