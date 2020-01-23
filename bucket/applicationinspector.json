@@ -7,12 +7,9 @@
     "hash": "72bf3ff26223fd54b85df31c8a74e1a333c8f857b4d59387ccc71fa9fbc7bddf",
     "extract_dir": "ApplicationInspector_1.0.19",
     "bin": "AppInspector.exe",
-    "checkver": {
-        "url": "https://github.com/microsoft/ApplicationInspector/releases/latest",
-        "regex": "/releases/tag/v\\.([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v.$version/ApplicationInspector_windows_$version.zip",
+        "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v$version/ApplicationInspector_windows_$version.zip",
         "hash": {
             "url": "$baseurl/HASHES.txt",
             "regex": "$sha256.*?$basename"
