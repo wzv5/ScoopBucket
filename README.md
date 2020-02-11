@@ -39,6 +39,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | qqlive               | 腾讯视频           | √        | ×        |
 | qqmusic              | QQ 音乐            | √        | ×        |
 | screentogif          | -                  | √        | √        |
+| sni                  | SNI 代理探测       | √        | ×        |
 | utools               | -                  | √        | ×        |
 | vc-ltl               | -                  | √        | ×        |
 | vnote                | -                  | √        | √        |
