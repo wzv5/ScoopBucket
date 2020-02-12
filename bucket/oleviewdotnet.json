@@ -17,6 +17,6 @@
         "github": "https://github.com/tyranid/oleviewdotnet"
     },
     "autoupdate": {
-        "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v$version/Release_v$version.7z"
+        "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v$version/Release.7z"
     }
 }
