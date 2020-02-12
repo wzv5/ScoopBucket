@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/tyranid/oleviewdotnet",
-    "version": "1.9",
-    "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v1.9/Release_v1.9.7z",
-    "hash": "f656a00032270dc38accc1b8cbe126be4e88d1f4131cbe83106f58c44680a5fb",
+    "version": "1.10",
+    "url": "https://github.com/tyranid/oleviewdotnet/releases/download/v1.10/Release.7z",
+    "hash": "150001bc6bf2f3fa51c4ad688432df7dc79c172dfcaa1389d0e956e976745dff",
     "shortcuts": [
         [
             "OleViewDotNet.exe",
