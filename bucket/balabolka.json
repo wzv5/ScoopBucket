@@ -16,5 +16,8 @@
     "checkver": {
         "url": "http://www.cross-plus-a.com/changelog.txt",
         "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://balabolka.site/balabolka_portable.zip"
     }
 }
