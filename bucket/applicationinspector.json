@@ -6,7 +6,12 @@
     "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v1.1.5/ApplicationInspector_windows_1.1.5.zip",
     "hash": "f3bcc161d89174288ccd77be2d9dd7d49e93548cc55d2df04e8e8a1f3ec6f093",
     "extract_dir": "ApplicationInspector_1.1.5",
-    "bin": "AppInspector.exe",
+    "bin": [
+        [
+            "ApplicationInspector.CLI.exe",
+            "ApplicationInspector"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v$version/ApplicationInspector_windows_$version.zip",
