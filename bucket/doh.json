@@ -2,11 +2,11 @@
     "homepage": "https://github.com/wzv5/doh/",
     "description": "Stand-alone application for DoH (DNS-over-HTTPS) name resolves and lookups.",
     "license": "MIT",
-    "version": "20191108",
+    "version": "20200216",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wzv5/doh/releases/download/20191108/doh-x64.zip",
-            "hash": "b7676e964b566d7036f6363cf32dd27cc7324c011091e041d8280087b9362519"
+            "url": "https://github.com/wzv5/doh/releases/download/20200216/doh-x64.zip",
+            "hash": "0b645743eecc40c16a907376a7cdc63c865e56e4b02234c6818f6185c80c5e63"
         }
     },
     "bin": "doh.exe",
