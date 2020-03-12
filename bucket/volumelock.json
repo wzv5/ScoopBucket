@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/wzv5/VolumeLock",
+    "license": "MIT",
+    "version": "20200312",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wzv5/VolumeLock/releases/download/20200312/VolumeLock-x64.zip",
+            "hash": "d0c26afcd294fe58f6973821839cc75207995aa8103f81a0e43493dd110776a4"
+        }
+    },
+    "bin": "VolumeLock.exe",
+    "persist": "config.yaml",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wzv5/VolumeLock/releases/download/$version/VolumeLock-x64.zip"
+            }
+        }
+    }
+}

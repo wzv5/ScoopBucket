@@ -45,6 +45,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | utools               | -                  | √        | ×        |
 | vc-ltl               | -                  | √        | ×        |
 | vnote                | -                  | √        | √        |
+| volumelock           | 音量锁定           | √        | √        |
 | wechat               | 微信               | √        | ×        |
 | winscp               | -                  | √        | √        |
 | xnview               | -                  | √        | √        |
