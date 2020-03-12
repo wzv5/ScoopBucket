@@ -2,9 +2,9 @@
     "homepage": "http://www.cross-plus-a.com/balabolka.htm",
     "description": "A Text-To-Speech (TTS) program.",
     "license": "Freeware",
-    "version": "2.15.0.734",
+    "version": "2.15.0.735",
     "url": "http://balabolka.site/balabolka_portable.zip",
-    "hash": "348dbbd66b1bf464f7b7fe095b3dbb9f6aaea45d3b2ac2c7f9857722ab8b5ef8",
+    "hash": "f16a6e457c453a7ddf5cb9b46961e96dc89f0563202e509dc8c06555eff82879",
     "extract_dir": "Balabolka",
     "shortcuts": [
         [
