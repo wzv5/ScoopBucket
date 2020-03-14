@@ -5,7 +5,15 @@
     "license": "MS-PL",
     "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.22.1/ScreenToGif.2.22.1.Portable.zip",
     "hash": "65716855605668a4defa4b808f6ebc6b24a5329c9adc76094794e69703a01c99",
-    "pre_install": "if (!(Test-Path \"$persist_dir/Settings.xaml\")) { Set-Content \"$dir/Settings.xaml\" -Value $null }",
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir/Settings.xaml\")) {",
+        "    $filecontent = '<ResourceDictionary xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:s=\"clr-namespace:System;assembly=mscorlib\" xmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\" xmlns:stgu=\"clr-namespace:ScreenToGif.Util;assembly=ScreenToGif\">'",
+        "    $filecontent += '<s:Boolean x:Key=\"CheckForUpdates\">False</s:Boolean>'",
+        "    $filecontent += '<s:Boolean x:Key=\"CheckForTranslationUpdates\">False</s:Boolean>'",
+        "    $filecontent += '</ResourceDictionary>'",
+        "    Set-Content \"$dir/Settings.xaml\" -Value $filecontent -Encoding UTF8",
+        "}"
+    ],
     "persist": "Settings.xaml",
     "shortcuts": [
         [
