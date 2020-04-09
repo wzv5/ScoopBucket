@@ -49,4 +49,5 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | volumelock           | 音量锁定           | √        | √        |
 | wechat               | 微信               | √        | ×        |
 | winscp               | -                  | √        | √        |
+| winsw                | -                  | ×        | ×        |
 | xnview               | -                  | √        | √        |
