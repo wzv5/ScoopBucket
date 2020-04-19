@@ -2,9 +2,9 @@
     "homepage": "https://github.com/winsw/winsw",
     "description": "A wrapper executable that can be used to host any executable as an Windows service",
     "license": "MIT",
-    "version": "2.7.0",
-    "url": "https://github.com/winsw/winsw/releases/download/v2.7.0/WinSW.NET461.exe#/WinSW.exe",
-    "hash": "6c181f3d4f480badfa6ae530d1dbef91a8888872cd1af0b9c89a49a53d2efe11",
+    "version": "2.8.0",
+    "url": "https://github.com/winsw/winsw/releases/download/v2.8.0/WinSW.NET461.exe#/WinSW.exe",
+    "hash": "29542843719d54a18de16f38549b526b37ceda5549bcba321155d1df28d7dbcf",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/winsw/winsw/releases/download/v$version/WinSW.NET461.exe#/WinSW.exe"
