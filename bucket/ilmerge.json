@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.nuget.org/packages/ilmerge",
-    "version": "3.0.29",
-    "url": "https://www.nuget.org/api/v2/package/ilmerge/3.0.29#/dl.7z",
-    "hash": "8bbadce23f2ebfad44beb1d729f1274905a8c7d748efffc2b78e640689ec7eeb",
+    "version": "3.0.40",
+    "url": "https://www.nuget.org/api/v2/package/ilmerge/3.0.40#/dl.7z",
+    "hash": "6856edeca285deb16287c348a2bc3502d49904745d15ce07a85278ff3e886400",
     "extract_dir": "tools/net452",
     "bin": "ILMerge.exe",
     "checkver": {
