@@ -2,9 +2,9 @@
     "homepage": "https://winscp.net",
     "description": "Copy files between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.",
     "license": "GPL-3.0-or-later",
-    "version": "5.17.5",
-    "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/5.17.5/WinSCP-5.17.5-Setup.exe",
-    "hash": "0f43923ee1aaf92a36abeade57cc227f890f3980b42732dccc7be7e862aaddff",
+    "version": "5.17.6",
+    "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/5.17.6/WinSCP-5.17.6-Setup.exe",
+    "hash": "8bc805b88336d205f6759a83040aaefe5eddf640b24a642a2c1d29d5c38b3f5e",
     "innosetup": true,
     "persist": "winscp.ini",
     "pre_install": [
