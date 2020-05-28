@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.bh3.com/",
-    "version": "3.9.1_23d0982b635",
-    "url": "http://bundle.bh3.com/tmp/pc/BH3_v3.9.1_23d0982b635.7z",
-    "hash": "md5:71eeba94060cb022ab53f1df370a9c02",
+    "version": "4.0.0_b6ce979c106",
+    "url": "http://bundle.bh3.com/tmp/pc/BH3_v4.0.0_b6ce979c106.7z",
+    "hash": "md5:23c3e53eccd22d38afe4bf1821be0052",
     "shortcuts": [
         [
             "BH3.exe",
