@@ -1,0 +1,28 @@
+{
+    "homepage": "https://github.com/wzv5/pping/",
+    "description": "Ping with TCP, TLS and HTTP.",
+    "license": "MIT",
+    "version": "20200529",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wzv5/pping/releases/download/20200529/pping_x64.zip",
+            "hash": "9683a2a24d4a8f12d0d546dd1334de124f566feb9ee7b8d278e99fcd8eaf30ae"
+        },
+        "32bit": {
+            "url": "https://github.com/wzv5/pping/releases/download/20200529/pping_x86.zip",
+            "hash": "5e2e11725a9ba520578b6797f97ca36fc701af567750a59f12d7a5e886d8aa75"
+        }
+    },
+    "bin": "pping.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wzv5/pping/releases/download/$version/pping_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/wzv5/pping/releases/download/$version/pping_x86.zip"
+            }
+        }
+    }
+}

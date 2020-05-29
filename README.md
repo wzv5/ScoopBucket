@@ -36,6 +36,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | oleviewdotnet        | -                  | ×        | ×        |
 | php                  | -                  | ×        | √        |
 | phpmyadmin           | -                  | √        | √        |
+| pping                | -                  | ×        | ×        |
 | pspad                | -                  | √        | √        |
 | qbittorrent-enhanced | qBittorrent 增强版 | √        | ×        |
 | qqlive               | 腾讯视频           | √        | ×        |
