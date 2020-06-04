@@ -18,11 +18,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wzv5/pping/releases/download/$version/pping_x64.zip"
+                "url": "https://github.com/wzv5/pping/releases/download/v$version/pping_$version_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/wzv5/pping/releases/download/$version/pping_x86.zip"
+                "url": "https://github.com/wzv5/pping/releases/download/v$version/pping_$version_Windows_i386.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256.*?$basename"
         }
     }
 }
