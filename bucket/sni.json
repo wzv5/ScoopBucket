@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/wzv5/sni/",
     "license": "MIT",
-    "version": "1.1",
-    "url": "https://github.com/wzv5/sni/releases/download/v1.1/sni.zip",
-    "hash": "36ddd099b5380ac5a195124e2df414bb254c50d7938667b783dccd38febfd09d",
+    "version": "1.2",
+    "url": "https://github.com/wzv5/sni/releases/download/v1.2/sni.zip",
+    "hash": "e9db76bc2b5ad2b1851b7257f79c1ca06858ac90f9b281bfc3bb9c01f29b937a",
     "bin": "sni.exe",
     "checkver": "github",
     "autoupdate": {
