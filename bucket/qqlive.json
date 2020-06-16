@@ -15,10 +15,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.nicoconi.com/updater/qqlive",
-        "regex": "(?<url>.+)/TencentVideo([\\d.]+)\\.exe"
+        "url": "https://v.qq.com/download.html",
+        "regex": "https://dldir1\\.qq\\.com/qqtv/TencentVideo([\\d\\.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "$matchUrl/TencentVideo$version.exe#/dl.7z"
+        "url": "https://dldir1.qq.com/qqtv/TencentVideo$version.exe#/dl.7z"
     }
 }
