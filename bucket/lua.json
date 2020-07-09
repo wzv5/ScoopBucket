@@ -3,7 +3,7 @@
     "version": "5.4.0",
     "url": "https://downloads.sourceforge.net/project/luabinaries/5.4.0/Tools%20Executables/lua-5.4.0_Win64_bin.zip",
     "hash": "sha1:193bb343fa9a3bcbff4b24b83d815f60e6eaecf8",
-    "post_install": [
+    "pre_install": [
         "Push-Location \"$dir\"",
         "Get-ChildItem -Filter '*.exe' | Rename-Item -NewName { $_.Name -replace '\\d', '' }",
         "Pop-Location"
