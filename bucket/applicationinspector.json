@@ -14,11 +14,11 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v$version/ApplicationInspector_windows_$version.zip",
+        "url": "https://github.com/microsoft/ApplicationInspector/releases/download/v$version/ApplicationInspector_win_$version.zip",
         "hash": {
             "url": "$baseurl/HASHES.txt",
             "regex": "$sha256.*?$basename"
         },
-        "extract_dir": "ApplicationInspector_$version"
+        "extract_dir": "ApplicationInspector_win_$version"
     }
 }
