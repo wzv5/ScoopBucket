@@ -20,7 +20,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | 名称                 | 中文名称           | 包含中文 | 保存配置 |
 | -------------------- | ------------------ | -------- | -------- |
 | applicationinspector | -                  | ×        | ×        |
-| balabolka            | -                  | √        | ×        |
 | besttrace            | -                  | √        | ×        |
 | bh3                  | 崩坏 3（游戏）     | √        | ×        |
 | crystaldiskinfo      | -                  | √        | √        |
