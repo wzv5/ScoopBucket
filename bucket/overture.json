@@ -2,15 +2,15 @@
     "homepage": "https://github.com/wzv5/overture",
     "description": "A customized DNS forwarder written in Go.",
     "license": "MIT",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wzv5/overture/releases/download/v1.7.0/overture_1.7.0_windows_amd64.zip",
-            "hash": "4d74419fd939b9bf488c14309744c321a4e8f6aae7f0c3fe64c7f1763059cfe9"
+            "url": "https://github.com/wzv5/overture/releases/download/v1.7.1/overture_1.7.1_windows_amd64.zip",
+            "hash": "972ca0ab0422d251aa252046d6a26a4d721caad75fb699878411bc289527e61b"
         },
         "32bit": {
-            "url": "https://github.com/wzv5/overture/releases/download/v1.7.0/overture_1.7.0_windows_386.zip",
-            "hash": "d3623f6943f764817e62680cdbe1edc6a9cbd13f329b4bbc8dc390cd5118890b"
+            "url": "https://github.com/wzv5/overture/releases/download/v1.7.1/overture_1.7.1_windows_386.zip",
+            "hash": "204281d98b5d38f80b7dad04f464eb2c34494951db7c6765ca50dc751f69cda0"
         }
     },
     "bin": "overture.exe",
