@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/wzv5/overture/releases/download/v1.7.1/overture_1.7.1_windows_amd64.zip",
-            "hash": "972ca0ab0422d251aa252046d6a26a4d721caad75fb699878411bc289527e61b"
+            "hash": "a236ed4d72812353f63f799ed8ce4d13e43a8e917f5eeccc29fbb76fe3d0271b"
         },
         "32bit": {
             "url": "https://github.com/wzv5/overture/releases/download/v1.7.1/overture_1.7.1_windows_386.zip",
-            "hash": "204281d98b5d38f80b7dad04f464eb2c34494951db7c6765ca50dc751f69cda0"
+            "hash": "fcb53888acfc3b4bf853a9976ce304c50d3d9282136db90fae01ec1811ca0222"
         }
     },
     "bin": "overture.exe",
