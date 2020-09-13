@@ -1,0 +1,24 @@
+{
+    "homepage": "https://ys.mihoyo.com/",
+    "version": "1.0.0",
+    "url": "https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/04874b5ed14055383219644f40b514ca/YuanShen_1.0.0.zip",
+    "hash": "md5:7d1c0778a7eb4c99f2c19266629e1eb2",
+    "shortcuts": [
+        [
+            "YuanShen.exe",
+            "YuanShen"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?launcher_id=18",
+        "jp": "$.data.game.latest.path",
+        "re": "(?<url>.+)/YuanShen_([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "$matchUrl/YuanShen_$version.zip",
+        "hash": {
+            "url": "https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?launcher_id=18",
+            "jp": "$.data.game.latest.md5"
+        }
+    }
+}
