@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.screentogif.com/",
-    "version": "2.27.1",
+    "version": "2.27.2",
     "description": "Screen, webcam and sketchboard recorder with an integrated editor.",
     "license": "MS-PL",
-    "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.27.1/ScreenToGif.2.27.1.Portable.zip",
-    "hash": "d4c98bf2c5f6fecee6d1a750c78bf62cd36e9032bab7299ea0d99ce0c80c1ea3",
+    "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.27.2/ScreenToGif.2.27.2.Portable.zip",
+    "hash": "d06cdc500a294e2b2ab34bccc5b1f668dfc0eec836109111103f4b98c0e6f6da",
     "pre_install": [
         "if (-not (Test-Path \"$persist_dir/Settings.xaml\")) {",
         "    $filecontent = '<ResourceDictionary xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:s=\"clr-namespace:System;assembly=mscorlib\" xmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\" xmlns:stgu=\"clr-namespace:ScreenToGif.Util;assembly=ScreenToGif\">'",
