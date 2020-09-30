@@ -10,8 +10,8 @@
             "Douyu"
         ]
     ],
-    "checkver": "//(?<url>.+)/DouyuLive_([\\d.]+)\\.exe",
+    "checkver": "//(?<url>.+)/DouyuLive_([\\d\\.]+)_Server_(?<ver2>[\\d\\.]+)\\.exe",
     "autoupdate": {
-        "url": "https://$matchUrl/DouyuLive_$version.exe#/dl.7z"
+        "url": "https://$matchUrl/DouyuLive_$version_Server_$matchVer2.exe#/dl.7z"
     }
 }
