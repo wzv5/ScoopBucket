@@ -2,15 +2,15 @@
     "homepage": "https://github.com/wzv5/pping/",
     "description": "Ping with TCP, TLS and HTTP.",
     "license": "MIT",
-    "version": "0.5.4",
+    "version": "0.6.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wzv5/pping/releases/download/v0.5.4/pping_0.5.4_Windows_x86_64.zip",
-            "hash": "8ace1b7c843c511a9d7e0ddadb8e83cccda8366dd7a4f0e799e2a41c67d9f747"
+            "url": "https://github.com/wzv5/pping/releases/download/v0.6.0/pping_0.6.0_Windows_x86_64.zip",
+            "hash": "093fbd4d678bfe429af9313aa9b4af73c69367dfb3e75848b50d83d5ea80a309"
         },
         "32bit": {
-            "url": "https://github.com/wzv5/pping/releases/download/v0.5.4/pping_0.5.4_Windows_i386.zip",
-            "hash": "719f94a62602c14af2a84bc149dd5927b5feab18e27c2fdde1ab3e1ba2d3957e"
+            "url": "https://github.com/wzv5/pping/releases/download/v0.6.0/pping_0.6.0_Windows_i386.zip",
+            "hash": "4849edce8f90bed2967f4507e4fcc44ab357ca862fe949e7c4b0344d59c4a1cd"
         }
     },
     "bin": "pping.exe",
