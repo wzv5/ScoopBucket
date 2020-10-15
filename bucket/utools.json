@@ -25,22 +25,22 @@
         ]
     ],
     "checkver": {
-        "url": "https://resource.u-tools.cn/currentversion/latest.yml",
+        "url": "https://res.u-tools.cn/currentversion/public.yml",
         "regex": "version: (.+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://resource.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z",
+                "url": "https://res.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z",
                 "hash": {
-                    "url": "https://resource.u-tools.cn/currentversion/latest.yml",
+                    "url": "https://res.u-tools.cn/currentversion/public.yml",
                     "regex": "sha512: $base64"
                 }
             },
             "32bit": {
-                "url": "https://resource.u-tools.cn/currentversion/uTools-$version-ia32.exe#/dl.7z",
+                "url": "https://res.u-tools.cn/currentversion/uTools-$version-ia32.exe#/dl.7z",
                 "hash": {
-                    "url": "https://resource.u-tools.cn/currentversion/latest-ia32.yml",
+                    "url": "https://res.u-tools.cn/currentversion/public-ia32.yml",
                     "regex": "sha512: $base64"
                 }
             }
