@@ -1,17 +1,17 @@
 {
     "homepage": "https://u.tools/",
-    "version": "1.1.3",
+    "version": "1.3.2",
     "architecture": {
         "64bit": {
-            "url": "https://resource.u-tools.cn/currentversion/uTools-1.1.3.exe#/dl.7z",
-            "hash": "sha512:f3a3a3c2586a948fa9563daad5ac4cbb6409844d00b033f1bcf88b684db5a8cf6877b1e1a88c79a6ca4ba2940ccfce8e05f1b2095906e58e38801041d27e17c6",
+            "url": "https://res.u-tools.cn/currentversion/uTools-1.3.2.exe#/dl.7z",
+            "hash": "sha512:0ef0a4fda42222d9c518302d6eb24cb829b42f5ffae8796f9ddce2c2939dadbef5a3244174ed46219939759b19b81c1417f73dc11e887a83869ca95bd140c565",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             }
         },
         "32bit": {
-            "url": "https://resource.u-tools.cn/currentversion/uTools-1.1.3-ia32.exe#/dl.7z",
-            "hash": "sha512:0be604bc67529940c1720095a79803913575d39a351c68d74cbc8d81d21f09d658d8242bf27ca76b0a76ea33c85b9ac64dd8dc64be5cbcddb7cfbe2241433f33",
+            "url": "https://res.u-tools.cn/currentversion/uTools-1.3.2-ia32.exe#/dl.7z",
+            "hash": "sha512:5cb4a1ee078b58ed831c93efb096a6c141f499697d6945687be35f5e986724eb99d06530c6691d9c76b273a65d01a5b41fff5e48cf4c33141cb46ae95102eaed",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
             }
