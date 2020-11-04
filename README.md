@@ -38,6 +38,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | phpmyadmin           | -                  | √        | √        |
 | pping                | -                  | ×        | ×        |
 | pspad                | -                  | √        | √        |
+| pyembed-downloader   | -                  | √        | ×        |
 | qbittorrent-enhanced | qBittorrent 增强版 | √        | ×        |
 | qqlive               | 腾讯视频           | √        | ×        |
 | qqmusic              | QQ 音乐            | √        | ×        |
