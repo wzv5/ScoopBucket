@@ -8,7 +8,19 @@
     },
     "url": "http://files.jrsoftware.org/is/6/innosetup-6.1.2.exe",
     "hash": "a3ce1c40ef9c71a92691aaff0f413f530c8c9e3c766be481bc63ca7cc74e35e7",
-    "innosetup": true,
+    "depends": {
+        "innoextract": [
+            "innoextract"
+        ]
+    },
+    "installer": {
+        "script": [
+            "innoextract -s -e -d \"$dir\" -I app \"$dir\\$fname\"",
+            "Move-Item \"$dir\\app\\*\" \"$dir\"",
+            "Remove-Item \"$dir\\app\"",
+            "Remove-Item \"$dir\\$fname\""
+        ]
+    },
     "bin": "iscc.exe",
     "shortcuts": [
         [
