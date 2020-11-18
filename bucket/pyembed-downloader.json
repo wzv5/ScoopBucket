@@ -13,8 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "url": "https://github.com/wzv5/pyembed_downloader/releases/download/v$version/pyembed_downloader.zip"
-        }
+        "url": "https://github.com/wzv5/pyembed_downloader/releases/download/v$version/pyembed_downloader.zip"
     }
 }
