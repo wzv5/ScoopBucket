@@ -29,9 +29,9 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | gost                 | -                  | ×        | ×        |
 | ilmerge              | -                  | ×        | ×        |
 | inno-setup           | -                  | √        | ×        |
-| jadx                 | -                  | √        | ×        |
 | lua                  | -                  | ×        | ×        |
 | neteasemusic         | 网易云音乐         | √        | ×        |
+| nodejs-bin           | -                  | ×        | ×        |
 | oleviewdotnet        | -                  | ×        | ×        |
 | overture             | -                  | ×        | √        |
 | php                  | -                  | ×        | √        |
