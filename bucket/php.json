@@ -1,9 +1,7 @@
 {
     "homepage": "https://windows.php.net/",
-    "license": {
-        "identifier": "PHP-3.01",
-        "url": "https://secure.php.net/license/"
-    },
+    "description": "A popular general-purpose scripting language that is especially suited to web development. (non-thread safe)",
+    "license": "PHP-3.01",
     "version": "7.4.12",
     "architecture": {
         "64bit": {
@@ -29,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://windows.php.net/downloads/releases/php-$version-Win32-VC15-x64.zip"
+                "url": "https://windows.php.net/downloads/releases/php-$version-Win32-vs16-x64.zip"
             },
             "32bit": {
-                "url": "https://windows.php.net/downloads/releases/php-$version-Win32-VC15-x86.zip"
+                "url": "https://windows.php.net/downloads/releases/php-$version-Win32-vs16-x86.zip"
             }
         },
         "hash": {
