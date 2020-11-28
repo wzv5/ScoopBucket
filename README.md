@@ -22,7 +22,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | applicationinspector | -                  | ×        | ×        |
 | besttrace            | -                  | √        | ×        |
 | bh3                  | 崩坏 3（游戏）     | √        | ×        |
-| crystaldiskinfo      | -                  | √        | √        |
 | doh                  | -                  | ×        | ×        |
 | douyu                | 斗鱼直播           | √        | ×        |
 | filezilla            | -                  | √        | √        |
