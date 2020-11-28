@@ -5,6 +5,7 @@
     "version": "2020.5.1",
     "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2020.5.1/NETworkManager_2020.5.1_Portable.zip",
     "hash": "fcc6962c65cdc0ed5137acdfd23de97801a1ed74557426be8ad68f6dbfd366b6",
+    "extract_dir": "NETworkManager",
     "shortcuts": [
         [
             "NETworkManager.exe",
