@@ -29,6 +29,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | ilmerge              | -                  | ×        | ×        |
 | inno-setup           | -                  | √        | ×        |
 | lua                  | -                  | ×        | ×        |
+| nattypetester        | -                  | ×        | ×        |
 | neteasemusic         | 网易云音乐         | √        | ×        |
 | networkmanager       | -                  | √        | √        |
 | nodejs-bin           | -                  | ×        | ×        |
