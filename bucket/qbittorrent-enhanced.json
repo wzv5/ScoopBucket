@@ -4,16 +4,16 @@
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/qbittorrent/qBittorrent/blob/master/COPYING"
     },
-    "version": "4.2.5.16",
+    "version": "4.3.1.10",
     "description": "Free and reliable P2P Bittorent client.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.2.5.16/qbittorrent_4.2.5.16_x64_setup.exe#/dl.7z",
-            "hash": "b5cf31402a6ea215b5334b082d9bfe0dfd0d105a5da8d3ccd2af0f8d99d3ff22"
+            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.3.1.10/qbittorrent_4.3.1.10_x64_setup.exe#/dl.7z",
+            "hash": "17fe81d8cace08ddd824a05649cf1e8767473c4680e4c34b2a671caaf6bde2f2"
         },
         "32bit": {
-            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.2.5.16/qbittorrent_4.2.5.16_setup.exe#/dl.7z",
-            "hash": "11902f421ed125398c8d93cb6c273f9e29d8837d889c6314dca530f09fdd9423"
+            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.3.1.10/qbittorrent_4.3.1.10_setup.exe#/dl.7z",
+            "hash": "c218ad2309cbc6c914b96fc12772e61f18a11445cada77c2a0ea60385ffd075e"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
