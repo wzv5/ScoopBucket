@@ -34,6 +34,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | networkmanager       | -                  | √        | √        |
 | nodejs-bin           | -                  | ×        | ×        |
 | oleviewdotnet        | -                  | ×        | ×        |
+| openark              | -                  | √        | √        |
 | overture             | -                  | ×        | √        |
 | php                  | -                  | ×        | √        |
 | phpmyadmin           | -                  | √        | √        |
