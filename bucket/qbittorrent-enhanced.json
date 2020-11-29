@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases",
-        "regex": "/releases/tag/release-(4\\.2\\.[\\d\\.]+)"
+        "regex": "/releases/tag/release-(4\\.3\\.[\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
