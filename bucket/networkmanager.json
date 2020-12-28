@@ -2,9 +2,9 @@
     "homepage": "https://borntoberoot.net/NETworkManager",
     "description": "A powerful tool for managing networks and troubleshoot network problems.",
     "license": "GPL-3.0",
-    "version": "2020.12.1",
-    "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2020.12.1/NETworkManager_2020.12.1_Portable.zip",
-    "hash": "19d04ba6bbfb323f11889115489a299fe534c49aea533030df0f5b47ae7a722e",
+    "version": "2020.12.2",
+    "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2020.12.2/NETworkManager_2020.12.2_Portable.zip",
+    "hash": "7a26775c906586822ae3585cdd2fc3ad361d359d38ac591012e4cb9f82eea8ba",
     "extract_dir": "NETworkManager",
     "shortcuts": [
         [
