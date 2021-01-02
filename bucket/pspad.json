@@ -1,12 +1,14 @@
 {
     "homepage": "http://www.pspad.com",
+    "description": "A text editor for developers",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.pspad.com/en/licence.php"
     },
     "version": "5.0.4",
     "url": "https://www.pspad.com/files/pspad/pspad504en.zip",
-    "hash": "md5:da897072888a96fcdbfb09f555e035a7",
+    "hash": "sha1:da897072888a96fcdbfb09f555e035a74a876bcb",
+    "bin": "PSPad.exe",
     "shortcuts": [
         [
             "PSPad.exe",
@@ -28,7 +30,7 @@
         "url": "https://www.pspad.com/files/pspad/pspad$cleanVersionen.zip",
         "hash": {
             "url": "https://www.pspad.com/en/download.php",
-            "find": "([a-fA-F0-9]{32}).*(?:$basename)"
+            "regex": "$sha1.*?$basename"
         }
     }
 }
