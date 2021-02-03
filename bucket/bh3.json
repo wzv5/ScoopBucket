@@ -10,14 +10,15 @@
         ]
     ],
     "checkver": {
-        "url": "https://bundle.bh3.com/tmp/pc/VersionInfo.txt",
-        "jp": "$.cur_version"
+        "url": "https://sdk-static.mihoyo.com/bh3_cn/mdk/launcher/api/resource?launcher_id=4",
+        "jp": "$.data.game.latest.path",
+        "re": "(?<url>.+)/BH3_v([\\d.]+)_(?<hash>[0-9a-f]+)\\.7z"
     },
     "autoupdate": {
-        "url": "http://bundle.bh3.com/tmp/pc/BH3_v$version.7z",
+        "url": "$matchUrl/BH3_v$version_$matchHash.7z",
         "hash": {
-            "url": "https://bundle.bh3.com/tmp/pc/VersionInfo.txt",
-            "jp": "$.full_version_file.md5"
+            "url": "https://sdk-static.mihoyo.com/bh3_cn/mdk/launcher/api/resource?launcher_id=4",
+            "jp": "$.data.game.latest.md5"
         }
     }
 }
