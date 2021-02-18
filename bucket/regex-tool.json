@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/wzv5/regex_tool",
+    "license": "MIT",
+    "version": "0.1.0",
+    "url": "https://github.com/wzv5/regex_tool/releases/download/v0.1.0/windows_x64.zip",
+    "hash": "a0522ab021e220892752cb53f4ca0a0424ac0da9d4e1bfc7561cba0d02707ef7",
+    "shortcuts": [
+        [
+            "regex-tool.exe",
+            "regex-tool"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/wzv5/regex_tool/releases/download/v$version/windows_x64.zip"
+    }
+}
