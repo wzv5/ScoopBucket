@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.phpmyadmin.net/",
-    "version": "5.0.4",
-    "url": "https://files.phpmyadmin.net/phpMyAdmin/5.0.4/phpMyAdmin-5.0.4-all-languages.zip",
-    "hash": "830bbca930d5e417ae4249931838e2c70ca0365044268fa0ede75e33aff677de",
-    "extract_dir": "phpMyAdmin-5.0.4-all-languages",
+    "version": "5.1.0",
+    "url": "https://files.phpmyadmin.net/phpMyAdmin/5.1.0/phpMyAdmin-5.1.0-all-languages.zip",
+    "hash": "2f29fbfc8884c42290f950b077e0a8af2766507f959f30caef0edaa5fd3e04b9",
+    "extract_dir": "phpMyAdmin-5.1.0-all-languages",
     "pre_install": "if (!(Test-Path \"$persist_dir/config.inc.php\")) { Copy-Item \"$dir/config.sample.inc.php\" \"$dir/config.inc.php\" }",
     "persist": "config.inc.php",
     "suggest": {
