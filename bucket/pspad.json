@@ -5,8 +5,8 @@
         "identifier": "Freeware",
         "url": "https://www.pspad.com/en/licence.php"
     },
-    "version": "5.0.4",
-    "url": "https://www.pspad.com/files/pspad/pspad504en.zip",
+    "version": "5.0.5",
+    "url": "https://www.pspad.com/files/pspad/pspad505en.zip",
     "hash": "sha1:cb25124c526beb72e79815c437a86309d7bcc7be",
     "bin": "PSPad.exe",
     "shortcuts": [
