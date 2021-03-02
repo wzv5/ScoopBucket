@@ -6,8 +6,16 @@
         "url": "https://www.pspad.com/en/licence.php"
     },
     "version": "5.0.5",
-    "url": "https://www.pspad.com/files/pspad/pspad505en.zip",
-    "hash": "sha1:cb25124c526beb72e79815c437a86309d7bcc7be",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.pspad.com/files/pspad/pspad505en_x64.zip",
+            "hash": "sha1:1852b1333a18f3a2bf63c8675246311202c49b4e"
+        },
+        "32bit": {
+            "url": "https://www.pspad.com/files/pspad/pspad505en.zip",
+            "hash": "sha1:f1d818964cdb425952056b6ee70094b4a26ae603"
+        }
+    },
     "bin": "PSPad.exe",
     "shortcuts": [
         [
@@ -27,7 +35,14 @@
     ],
     "checkver": "Full version:\\D*([\\d.]+)",
     "autoupdate": {
-        "url": "https://www.pspad.com/files/pspad/pspad$cleanVersionen.zip",
+        "architecture": {
+            "64bit": {
+                "url": "https://www.pspad.com/files/pspad/pspad$cleanVersionen_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.pspad.com/files/pspad/pspad$cleanVersionen.zip"
+            }
+        },
         "hash": {
             "url": "https://www.pspad.com/en/download.php",
             "regex": "$sha1.*?$basename"
