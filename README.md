@@ -58,3 +58,4 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | winsw                | -                  | ×        | ×        |
 | xnview               | -                  | √        | √        |
 | yuanshen             | 原神（游戏）       | √        | ×        |
+| zabbix-agent         | -                  | ×        | √        |
