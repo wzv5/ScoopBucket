@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/wzv5/pyembed_downloader",
     "license": "MIT",
-    "version": "0.1.6",
-    "url": "https://github.com/wzv5/pyembed_downloader/releases/download/v0.1.6/pyembed_downloader.zip",
-    "hash": "db017b9144cefb4a5529b9a0e01b1e67b62ca5e420b0061b5cee87280bf608f8",
+    "version": "0.1.7",
+    "url": "https://github.com/wzv5/pyembed_downloader/releases/download/v0.1.7/pyembed_downloader.zip",
+    "hash": "c0a3b4092a4245da7bb419ae9251a604573d4394b841d7d3c2572a386bbf655d",
     "bin": "pyembed_downloader_cli.exe",
     "shortcuts": [
         [
