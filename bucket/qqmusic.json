@@ -1,8 +1,8 @@
 {
     "homepage": "https://y.qq.com/",
-    "version": "1803",
-    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_Setup_1803.exe#/dl.7z",
-    "hash": "md5:84af2466ab742a2d5e9b67bf525fcfa1",
+    "version": "1807",
+    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_Setup_1807.exe#/dl.7z",
+    "hash": "md5:7e2f9535cf97416123c13faec82526dc",
     "post_install": "cp \"$dir/QQMusic.tpc\" \"$dir/instok\"",
     "shortcuts": [
         [
