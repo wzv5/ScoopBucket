@@ -9,6 +9,15 @@
             "YuanShen"
         ]
     ],
+    "pre_install": [
+        "$configFile = \"[General]`r`n\"",
+        "$configFile += \"cps=mihoyo`r`n\"",
+        "$configFile += \"channel=1`r`n\"",
+        "$configFile += \"sub_channel=1`r`n\"",
+        "$configFile += \"game_version=$version\"",
+        "Set-Content \"$dir\\config.ini\" -Value $configFile -Encoding Ascii"
+    ],
+    "persist": "ScreenShot",
     "checkver": {
         "url": "https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?launcher_id=18",
         "jp": "$.data.game.latest.path",
