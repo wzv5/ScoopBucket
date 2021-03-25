@@ -1,8 +1,8 @@
 {
     "homepage": "https://pc.weixin.qq.com/",
-    "version": "3.1.0.72",
-    "url": "https://dl.softmgr.qq.com/original/im/WeChatSetup_3.1.0.72.exe#/dl.7z",
-    "hash": "af134a16b35528c572ef66a331e3f4cd0e19c285cb8ae27d80cd0ecf5f5cb714",
+    "version": "3.2.1.112",
+    "url": "https://dl.softmgr.qq.com/original/im/WeChatSetup-3.2.1.112.exe#/dl.7z",
+    "hash": "9f83b761e7362aedb43e48e84b161d4ea9097340b96d2300b2e07d23ef13f919",
     "post_install": "Remove-Item \"$dir\\`$_15_\", \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R5\" -Force -Recurse",
     "shortcuts": [
         [
