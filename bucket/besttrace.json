@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.ipip.net/",
-    "version": "3.8.0-4",
+    "version": "3.9.0",
     "url": "https://cdn.ipip.net/17mon/besttrace.exe",
-    "hash": "9ea8dc9bb0b9ad44557aee4bcd23f1e14bf5e26a1782dd4a4e8da01d7d2d6617",
+    "hash": "d24b2b3a023a333a318e6e471a81d5327b9061b719ad1e928fec56ec7dd225db",
     "innosetup": true,
     "shortcuts": [
         [
