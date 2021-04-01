@@ -5,15 +5,15 @@
         "identifier": "Freeware",
         "url": "https://www.pspad.com/en/licence.php"
     },
-    "version": "5.0.5",
+    "version": "5.0.6",
     "architecture": {
         "64bit": {
-            "url": "https://www.pspad.com/files/pspad/pspad505en_x64.zip",
-            "hash": "sha1:1852b1333a18f3a2bf63c8675246311202c49b4e"
+            "url": "https://www.pspad.com/files/pspad/pspad506en_x64.zip",
+            "hash": "sha1:2fda252e6b9ef207c99ab5828b2a66020fea49a7"
         },
         "32bit": {
-            "url": "https://www.pspad.com/files/pspad/pspad505en.zip",
-            "hash": "sha1:f1d818964cdb425952056b6ee70094b4a26ae603"
+            "url": "https://www.pspad.com/files/pspad/pspad506en.zip",
+            "hash": "sha1:9c1ed617957e40f2e2420f4dd6562e070863b1fe"
         }
     },
     "bin": "PSPad.exe",
