@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.pspad.com/files/pspad/pspad506en_x64.zip",
-            "hash": "sha1:2fda252e6b9ef207c99ab5828b2a66020fea49a7"
+            "hash": "sha1:f1c892a872ea62ff7c24ee1f0252ea98027a159c"
         },
         "32bit": {
             "url": "https://www.pspad.com/files/pspad/pspad506en.zip",
