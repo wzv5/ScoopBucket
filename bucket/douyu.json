@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.douyu.com/client",
-    "version": "8.4.5.3",
-    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20210311105701540/DouyuLive_8.4.5.3_Server_1.1.1.4.exe#/dl.7z",
-    "hash": "c82acb8b86db185067a54d272761b8110c4728d10526c4ff6a2d537995e608e1",
+    "version": "8.4.6.3",
+    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20210407104709771/DouyuLive_8.4.6.3_Server_1.1.1.4.exe#/dl.7z",
+    "hash": "44fab3cf252edafe8efd5f0c2e97a42e5b081eb7eebf1483ba1c016c6a7b6b7c",
     "extract_dir": "Client",
     "shortcuts": [
         [
