@@ -1,8 +1,8 @@
 {
     "homepage": "https://v.qq.com/",
-    "version": "11.20.4068.0",
-    "url": "https://dldir1.qq.com/qqtv/TencentVideo11.20.4068.0.exe#/dl.7z",
-    "hash": "520a4ac86ba0b6513b5339327ba2b059c6d782c8f45d21cc486b583e7e699b43",
+    "version": "11.21.6007.0",
+    "url": "https://dldir1.qq.com/qqtv/TencentVideo11.21.6007.0.exe#/dl.7z",
+    "hash": "32c2a72229683c0b57dfc7f0537854f0494537ced2ffbbadc4aa7cfe8d42e553",
     "post_install": [
         "rm -r \"$dir/`$PLUGINSDIR\"",
         "rm -r \"$dir/`$TEMP\"",
