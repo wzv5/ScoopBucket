@@ -1,13 +1,13 @@
 {
     "homepage": "http://www.jrsoftware.org/isinfo.php",
-    "version": "6.1.2",
+    "version": "6.2.0",
     "description": "Installer for Windows programs.",
     "license": {
         "identifier": "Freeware",
         "url": "http://www.jrsoftware.org/files/is/license.txt"
     },
-    "url": "http://files.jrsoftware.org/is/6/innosetup-6.1.2.exe",
-    "hash": "a3ce1c40ef9c71a92691aaff0f413f530c8c9e3c766be481bc63ca7cc74e35e7",
+    "url": "http://files.jrsoftware.org/is/6/innosetup-6.2.0.exe",
+    "hash": "63fb5ffe17e2312955cc0346e791772bb9e3592a2f82003abf9ecfea97b98ab3",
     "innosetup": true,
     "bin": "iscc.exe",
     "shortcuts": [
