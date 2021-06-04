@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/Chuyu-Team/VC-LTL",
-    "version": "4.1.1",
-    "url": "https://github.com/Chuyu-Team/VC-LTL/releases/download/v4.1.1/VC-LTL-4.1.1-Binary-VS2019.7z",
-    "hash": "9f621f91b9b9f0e3f301643d228fc4598a956b00f79c6f16ffe0cc269cd46bf5",
+    "version": "4.1.2",
+    "url": "https://github.com/Chuyu-Team/VC-LTL/releases/download/v4.1.2/VC-LTL-4.1.2-Binary-VS2019.7z",
+    "hash": "d6ca0802c11c7a6c8750568e81b9f314d957c3bc4d98df71faeadb4c0cfbe675",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Chuyu-Team/VC-LTL/releases/download/v$version/VC-LTL-$version-Binary-VS2019.7z",
