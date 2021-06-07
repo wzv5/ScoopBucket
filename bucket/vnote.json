@@ -32,19 +32,6 @@
             "if ((Get-Item \"$dir/session.ini\").LinkType -ne 'HardLink') { cp \"$dir/session.ini\" \"$persist_dir/session.ini\" }"
         ]
     },
-    "checkver": {
-        "github": "https://github.com/tamlok/vnote"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/tamlok/vnote/releases/download/v$version/VNote_win_X64_portable_$version.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/tamlok/vnote/releases/download/v$version/VNote_win_x86_portable_$version.zip"
-            }
-        }
-    },
     "shortcuts": [
         [
             "VNote.exe",
