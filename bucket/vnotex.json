@@ -13,10 +13,7 @@
             "hash": "848fffb0d23e41026289e8b3922ce5ee8b483cb9993cd4324ec0b2dea4f84dd7"
         }
     },
-    "persist": [
-        "vnotex_files",
-        "user_files"
-    ],
+    "persist": "user_files",
     "shortcuts": [
         [
             "vnote.exe",
