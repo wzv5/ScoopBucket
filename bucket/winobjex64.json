@@ -2,9 +2,9 @@
     "homepage": "https://github.com/hfiref0x/WinObjEx64",
     "description": "An advanced utility that lets you explore the Windows Object Manager namespace",
     "license": "BSD-2-Clause",
-    "version": "1.8.8",
-    "url": "https://github.com/hfiref0x/WinObjEx64/releases/download/v1.8.8/1.8.8.zip",
-    "hash": "a39a9666ba1cce8bac7b9dc1fd6cc88f11f0363e897067048d7d82f47c85f94e",
+    "version": "1.9.0",
+    "url": "https://github.com/hfiref0x/WinObjEx64/releases/download/v1.9.0/1.9.0.zip",
+    "hash": "47d71b49d603a537360f315dd8956b892aae34971a3b33e97982413fc3b46e6e",
     "shortcuts": [
         [
             "WinObjEx64.exe",
