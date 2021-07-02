@@ -1,8 +1,8 @@
 {
     "homepage": "https://music.163.com/",
-    "version": "2.9.1.199108",
-    "url": "https://d1.music.126.net/dmusic/obj/w5zCg8OCw6fCn2vDicOl/9672193815/3371/202162105749/cloudmusicsetup2.9.1.199108.exe#/dl.7z",
-    "hash": "9d9a8a2de1e62e6ca53f52a3c91057fffcf1d01cc7bcc8188ca90fed48bd8c4f",
+    "version": "2.9.1.199099",
+    "url": "https://d1.music.126.net/dmusic/cloudmusicsetup2.9.1.199099.exe#/dl.7z",
+    "hash": "e4a71ed1385dd187d8b3a703f0d02bc151910361c52e281b82da93afef3e1d1d",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "shortcuts": [
         [
