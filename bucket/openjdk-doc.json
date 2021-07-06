@@ -1,0 +1,27 @@
+{
+    "homepage": "https://openjdk.java.net/",
+    "version": "16.0.1.u9-1",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/extra/os/x86_64/openjdk-doc-16.0.1.u9-1-x86_64.pkg.tar.zst",
+    "hash": "40ec38f4165a6ac77b0038ec473a8f30c21768aa355ad942b091c1976756fad7",
+    "depends": "zstd",
+    "installer": {
+        "script": [
+            "zstd -d \"$dir/$fname\" -o \"$dir/openjdk-doc.tar\"",
+            "Expand-7zipArchive -Path \"$dir/openjdk-doc.tar\" -ExtractDir usr/share/doc/java-openjdk -Removal",
+            "Remove-Item \"$dir/$fname\", \"$dir/usr\" -Force -Recurse"
+        ]
+    },
+    "shortcuts": [
+        [
+            "index.html",
+            "openjdk-doc"
+        ]
+    ],
+    "checkver": {
+        "url": "https://archlinux.org/packages/extra/x86_64/openjdk-doc/",
+        "regex": "\"version\"\\s+content=\"(.+?)\""
+    },
+    "autoupdate": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/extra/os/x86_64/openjdk-doc-$version-x86_64.pkg.tar.zst"
+    }
+}
