@@ -1,8 +1,8 @@
 {
     "homepage": "https://ys.mihoyo.com/",
-    "version": "1.6.0",
-    "url": "https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210609_cda4068353f840c3/YuanShen_1.6.0.zip",
-    "hash": "md5:8607c66d55b51e7ab2f94709e0c9c771",
+    "version": "2.0.0",
+    "url": "https://autopatchcn.yuanshen.com/client_app/pc_mihoyo/20210721_3aacc245ccfe47c7/YuanShen_2.0.0.zip",
+    "hash": "md5:7b454a68fa48ec8549e51fc12416a886",
     "shortcuts": [
         [
             "YuanShen.exe",
