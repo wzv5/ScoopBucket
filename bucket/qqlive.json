@@ -16,7 +16,7 @@
     ],
     "checkver": {
         "url": "https://v.qq.com/download.html",
-        "regex": "https://dldir1\\.qq\\.com/qqtv/TencentVideo([\\d\\.]+)\\.exe"
+        "regex": "//dldir1\\.qq\\.com/qqtv/TencentVideo([\\d\\.]+)\\.exe"
     },
     "autoupdate": {
         "url": "https://dldir1.qq.com/qqtv/TencentVideo$version.exe#/dl.7z"
