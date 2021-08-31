@@ -11,7 +11,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://docs.python.org/3/download.html",
+        "url": "https://docs.python.org/zh-cn/3/download.html",
         "regex": "python-([\\d.]+)-docs-html\\.zip"
     },
     "autoupdate": {
