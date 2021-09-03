@@ -11,13 +11,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://g.alicdn.com/aliyun-drive-fe/aliyun-drive-desktop-version/0.0.11/win32/ia32/latest.yml",
+        "url": "https://g.alicdn.com/aliyun-drive-fe/aliyun-drive-desktop-version/0.0.12/win32/ia32/latest.yml",
         "regex": "version: (.+)"
     },
     "autoupdate": {
-        "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive/$version/update/win32/ia32/aDrive-$version.exe#/dl.7z",
+        "url": "https://tongyongxiezuo.oss-cn-zhangjiakou.aliyuncs.com/desktop/aDrive-desktop/$version/update/win32/ia32/aDrive-$version.exe#/dl.7z",
         "hash": {
-            "url": "https://g.alicdn.com/aliyun-drive-fe/aliyun-drive-desktop-version/0.0.11/win32/ia32/latest.yml",
+            "url": "https://g.alicdn.com/aliyun-drive-fe/aliyun-drive-desktop-version/0.0.12/win32/ia32/latest.yml",
             "regex": "sha512: $base64"
         }
     }
