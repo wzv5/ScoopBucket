@@ -25,7 +25,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://res.u-tools.cn/currentversion/public.yml",
+        "url": "https://publish.u-tools.cn/version2/latest.yml",
         "regex": "version: (.+)"
     },
     "autoupdate": {
@@ -33,14 +33,14 @@
             "64bit": {
                 "url": "https://res.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z",
                 "hash": {
-                    "url": "https://res.u-tools.cn/currentversion/public.yml",
+                    "url": "https://publish.u-tools.cn/version2/latest.yml",
                     "regex": "sha512: $base64"
                 }
             },
             "32bit": {
                 "url": "https://res.u-tools.cn/currentversion/uTools-$version-ia32.exe#/dl.7z",
                 "hash": {
-                    "url": "https://res.u-tools.cn/currentversion/public-ia32.yml",
+                    "url": "https://publish.u-tools.cn/version2/latest-ia32.yml",
                     "regex": "sha512: $base64"
                 }
             }
