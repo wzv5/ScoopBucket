@@ -28,6 +28,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | gost                 | -                  | ×        | ×        |
 | helix                | -                  | ×        | ×        |
 | ilmerge              | -                  | ×        | ×        |
+| ilspy                | -                  | √        | ×        |
 | imhex                | -                  | √        | ×        |
 | inno-setup           | -                  | √        | ×        |
 | lua                  | -                  | ×        | ×        |
