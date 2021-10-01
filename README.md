@@ -25,6 +25,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | bh3                  | 崩坏 3（游戏）     | √        | ×        |
 | doh                  | -                  | ×        | ×        |
 | douyu                | 斗鱼直播           | √        | ×        |
+| evernote             | Evernote 国际版    | √        | ×        |
 | gost                 | -                  | ×        | ×        |
 | helix                | -                  | ×        | ×        |
 | ilmerge              | -                  | ×        | ×        |
