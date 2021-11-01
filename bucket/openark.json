@@ -2,15 +2,15 @@
     "homepage": "https://openark.blackint3.com/",
     "description": "OpenArk is an open source anti-rookit(ARK) tool for Windows.",
     "license": "LGPL-2.1",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.1.0/OpenArk64.exe#/OpenArk.exe",
-            "hash": "6fad8b0553d0ab5464f2547b8890696b0bcf4e1d8ea89b29e6c9840389b3a95e"
+            "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.2.0/OpenArk64.exe#/OpenArk.exe",
+            "hash": "826914bc8dc3ec8abfbd5a4bf2445fb3b399f85c6e550214631cc79ae967431e"
         },
         "32bit": {
-            "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.1.0/OpenArk32.exe#/OpenArk.exe",
-            "hash": "550056c99590a902d9df4a2dfbf75da9f045dd8fb25099b30b34f0ca3937a2e1"
+            "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.2.0/OpenArk32.exe#/OpenArk.exe",
+            "hash": "0c760f0eafb1c7fcd6d9da46730fcb41ecd5862a7ba7ecf0ad0355b1bc655a21"
         }
     },
     "shortcuts": [
