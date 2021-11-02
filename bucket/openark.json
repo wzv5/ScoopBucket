@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.2.0/OpenArk64.exe#/OpenArk.exe",
-            "hash": "826914bc8dc3ec8abfbd5a4bf2445fb3b399f85c6e550214631cc79ae967431e"
+            "hash": "2a63b0a0c23e6ea1b8a75168e77f113213f9e5a3ec1cbcdba8fc5618e9f84723"
         },
         "32bit": {
             "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.2.0/OpenArk32.exe#/OpenArk.exe",
-            "hash": "0c760f0eafb1c7fcd6d9da46730fcb41ecd5862a7ba7ecf0ad0355b1bc655a21"
+            "hash": "56c56f637c070a2cdf1b704ac494cbb0ea3a78dfb802ec2a7e076fbeb99b8bfb"
         }
     },
     "shortcuts": [
