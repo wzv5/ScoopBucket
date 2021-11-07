@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/vnotex/vnote/releases/download/v3.9.0/vnote-win-x64_v3.9.0.zip",
-            "hash": "f410ed304c2c10a1cfed4009bfa62490f117e54f3695ca89e0542192ca4180c6"
+            "hash": "4e4eac83de7ad9e63bab8e8c3d2531db3961e47b4b5432aef78ccc60be33c13d"
         },
         "32bit": {
             "url": "https://github.com/vnotex/vnote/releases/download/v3.9.0/vnote-win-x86_v3.9.0.zip",
