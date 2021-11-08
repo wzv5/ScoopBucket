@@ -28,7 +28,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | evernote             | Evernote 国际版    | √        | ×        |
 | gost                 | -                  | ×        | ×        |
 | ilmerge              | -                  | ×        | ×        |
-| ilspy                | -                  | √        | ×        |
 | imhex                | -                  | √        | ×        |
 | inno-setup           | -                  | √        | ×        |
 | lua                  | -                  | ×        | ×        |
