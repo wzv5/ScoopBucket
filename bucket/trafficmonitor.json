@@ -20,6 +20,7 @@
         "if (!(Test-Path \"$persist_dir/history_traffic.dat\")) { Set-Content \"$dir/history_traffic.dat\" -Value $null }"
     ],
     "persist": [
+        "plugins",
         "config.ini",
         "history_traffic.dat"
     ],
