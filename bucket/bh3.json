@@ -3,6 +3,16 @@
     "version": "5.3.0",
     "url": "https://bundle.bh3.com/ptpublic/rel/20211103104259_693ct8KNQRPrRgww/PC/BH3_v5.3.0_a3a92da6712f.7z",
     "hash": "md5:b259f9c67c5cf7b8ac3bc32da3863a4b",
+    "pre_install": [
+        "@\"",
+        "[General]",
+        "channel=1",
+        "sub_channel=1",
+        "cps=",
+        "sdk_version=",
+        "game_version=$version",
+        "\"@ | Out-File \"$dir\\config.ini\" -Encoding Ascii"
+    ],
     "shortcuts": [
         [
             "BH3.exe",
