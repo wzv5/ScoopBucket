@@ -28,6 +28,13 @@
         "github": "https://github.com/NickeManarin/ScreenToGif"
     },
     "autoupdate": {
-        "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x86.zip"
+            }
+        }
     }
 }
