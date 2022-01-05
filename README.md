@@ -52,6 +52,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | qbittorrent-enhanced | qBittorrent 增强版 | √        | ×        |
 | qqlive               | 腾讯视频           | √        | ×        |
 | qqmusic              | QQ 音乐            | √        | ×        |
+| rathole              | -                  | ×        | ×        |
 | regex-tool           | 正则调试工具       | √        | ×        |
 | screentogif          | -                  | √        | √        |
 | sni                  | SNI 代理探测       | √        | ×        |
