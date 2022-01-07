@@ -43,7 +43,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | overture             | -                  | ×        | √        |
 | php                  | -                  | ×        | √        |
 | phpmyadmin           | -                  | √        | √        |
-| powertoys            | -                  | √        | ×        |
 | pping                | -                  | ×        | ×        |
 | pspad                | -                  | √        | √        |
 | pyembed-downloader   | -                  | √        | ×        |
