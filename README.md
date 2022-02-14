@@ -55,7 +55,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | regex-tool           | 正则调试工具       | √        | ×        |
 | screentogif          | -                  | √        | √        |
 | sni                  | SNI 代理探测       | √        | ×        |
-| trafficmonitor       | 流量监控器         | √        | √        |
 | utools               | -                  | √        | ×        |
 | vc-ltl               | -                  | √        | ×        |
 | vnote                | -                  | √        | √        |
