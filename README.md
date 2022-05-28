@@ -17,53 +17,52 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ## 包含软件
 
-| 名称                 | 中文名称           | 包含中文 | 保存配置 |
-| -------------------- | ------------------ | -------- | -------- |
-| aliyundrive          | 阿里云盘           | √        | ×        |
-| applicationinspector | -                  | ×        | ×        |
-| besttrace            | -                  | √        | ×        |
-| bh3                  | 崩坏 3（游戏）     | √        | ×        |
-| doh                  | -                  | ×        | ×        |
-| douyu                | 斗鱼直播           | √        | ×        |
-| evernote             | Evernote 国际版    | √        | ×        |
-| gost                 | -                  | ×        | ×        |
-| ilmerge              | -                  | ×        | ×        |
-| inno-setup           | -                  | √        | ×        |
-| lua                  | -                  | ×        | ×        |
-| lx-music-desktop     | 洛雪音乐助手       | √        | ×        |
-| nattypetester        | -                  | ×        | ×        |
-| neteasemusic         | 网易云音乐         | √        | ×        |
-| networkmanager       | -                  | √        | √        |
-| nodejs-bin           | -                  | ×        | ×        |
-| notepad3             | -                  | √        | √        |
-| oha                  | -                  | ×        | ×        |
-| oleviewdotnet        | -                  | ×        | ×        |
-| openark              | -                  | √        | √        |
-| openjdk-doc          | -                  | ×        | ×        |
-| overture             | -                  | ×        | √        |
-| php                  | -                  | ×        | √        |
-| phpmyadmin           | -                  | √        | √        |
-| pping                | -                  | ×        | ×        |
-| pspad                | -                  | √        | √        |
-| pyembed-downloader   | -                  | √        | ×        |
-| python-doc-zh-cn     | -                  | √        | ×        |
-| python-doc           | -                  | ×        | ×        |
-| qbittorrent-enhanced | qBittorrent 增强版 | √        | ×        |
-| qqlive               | 腾讯视频           | √        | ×        |
-| qqmusic              | QQ 音乐            | √        | ×        |
-| rathole              | -                  | ×        | ×        |
-| regex-tool           | 正则调试工具       | √        | ×        |
-| screentogif          | -                  | √        | √        |
-| sni                  | SNI 代理探测       | √        | ×        |
-| utools               | -                  | √        | ×        |
-| vc-ltl               | -                  | √        | ×        |
-| vnote                | -                  | √        | √        |
-| volumelock           | 音量锁定           | √        | √        |
-| wechat               | 微信               | √        | ×        |
-| winobjex64           | -                  | ×        | ×        |
-| winscp               | -                  | √        | √        |
-| winsw                | -                  | ×        | ×        |
-| xnview               | -                  | √        | √        |
-| yuanshen             | 原神（游戏）       | √        | ×        |
-| yy-thunks            | -                  | ×        | ×        |
-| zabbix-agent         | -                  | ×        | √        |
+| 名称                 | 中文名称        | 包含中文 | 保存配置 |
+| -------------------- | --------------- | -------- | -------- |
+| aliyundrive          | 阿里云盘        | √        | ×        |
+| applicationinspector | -               | ×        | ×        |
+| besttrace            | -               | √        | ×        |
+| bh3                  | 崩坏 3（游戏）  | √        | ×        |
+| doh                  | -               | ×        | ×        |
+| douyu                | 斗鱼直播        | √        | ×        |
+| evernote             | Evernote 国际版 | √        | ×        |
+| gost                 | -               | ×        | ×        |
+| ilmerge              | -               | ×        | ×        |
+| inno-setup           | -               | √        | ×        |
+| lua                  | -               | ×        | ×        |
+| lx-music-desktop     | 洛雪音乐助手    | √        | ×        |
+| nattypetester        | -               | ×        | ×        |
+| neteasemusic         | 网易云音乐      | √        | ×        |
+| networkmanager       | -               | √        | √        |
+| nodejs-bin           | -               | ×        | ×        |
+| notepad3             | -               | √        | √        |
+| oha                  | -               | ×        | ×        |
+| oleviewdotnet        | -               | ×        | ×        |
+| openark              | -               | √        | √        |
+| openjdk-doc          | -               | ×        | ×        |
+| overture             | -               | ×        | √        |
+| php                  | -               | ×        | √        |
+| phpmyadmin           | -               | √        | √        |
+| pping                | -               | ×        | ×        |
+| pspad                | -               | √        | √        |
+| pyembed-downloader   | -               | √        | ×        |
+| python-doc-zh-cn     | -               | √        | ×        |
+| python-doc           | -               | ×        | ×        |
+| qqlive               | 腾讯视频        | √        | ×        |
+| qqmusic              | QQ 音乐         | √        | ×        |
+| rathole              | -               | ×        | ×        |
+| regex-tool           | 正则调试工具    | √        | ×        |
+| screentogif          | -               | √        | √        |
+| sni                  | SNI 代理探测    | √        | ×        |
+| utools               | -               | √        | ×        |
+| vc-ltl               | -               | √        | ×        |
+| vnote                | -               | √        | √        |
+| volumelock           | 音量锁定        | √        | √        |
+| wechat               | 微信            | √        | ×        |
+| winobjex64           | -               | ×        | ×        |
+| winscp               | -               | √        | √        |
+| winsw                | -               | ×        | ×        |
+| xnview               | -               | √        | √        |
+| yuanshen             | 原神（游戏）    | √        | ×        |
+| yy-thunks            | -               | ×        | ×        |
+| zabbix-agent         | -               | ×        | √        |
