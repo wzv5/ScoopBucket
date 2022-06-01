@@ -1,9 +1,9 @@
 {
     "homepage": "https://pc.weixin.qq.com/",
-    "version": "3.6.0.18",
-    "url": "https://webcdn.m.qq.com/spcmgr/download/WeChat3.6.0.18.exe#/dl.7z",
-    "hash": "039a9dea901301d057db147a9971a2c2a2dc45084049c62b9104a8e76d47d68f",
-    "extract_dir": "[3.6.0.18]",
+    "version": "3.7.0.26",
+    "url": "https://webcdn.m.qq.com/spcmgr/download/WeChat3.7.0.26.exe#/dl.7z",
+    "hash": "f9061a7a57d15880bb3606c14a0786418a094daaedf92d413612f11aea4b5c8e",
+    "extract_dir": "[3.7.0.26]",
     "shortcuts": [
         [
             "wechat.exe",
