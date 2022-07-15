@@ -27,9 +27,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | douyu                | 斗鱼直播        | √        | ×        |
 | evernote             | Evernote 国际版 | √        | ×        |
 | gost                 | -               | ×        | ×        |
-| ilmerge              | -               | ×        | ×        |
 | inno-setup           | -               | √        | ×        |
-| lua                  | -               | ×        | ×        |
 | lx-music-desktop     | 洛雪音乐助手    | √        | ×        |
 | nattypetester        | -               | ×        | ×        |
 | neteasemusic         | 网易云音乐      | √        | ×        |
@@ -51,7 +49,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | qqmusic              | QQ 音乐         | √        | ×        |
 | rathole              | -               | ×        | ×        |
 | regex-tool           | 正则调试工具    | √        | ×        |
-| screentogif          | -               | √        | √        |
 | sni                  | SNI 代理探测    | √        | ×        |
 | utools               | -               | √        | ×        |
 | vc-ltl               | -               | √        | ×        |
