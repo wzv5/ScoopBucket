@@ -31,7 +31,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | lx-music-desktop     | 洛雪音乐助手    | √        | ×        |
 | nattypetester        | -               | ×        | ×        |
 | neteasemusic         | 网易云音乐      | √        | ×        |
-| networkmanager       | -               | √        | √        |
 | nodejs-bin           | -               | ×        | ×        |
 | oha                  | -               | ×        | ×        |
 | oleviewdotnet        | -               | ×        | ×        |
