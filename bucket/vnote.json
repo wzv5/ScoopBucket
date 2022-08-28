@@ -16,7 +16,10 @@
             "hash": "967f5aadf7851652851a0ff45059affa7d916fc14fb25b669c47d6a03726db1b"
         }
     },
-    "pre_install": "Remove-Item \"$dir\\vcredist_*exe\"",
+    "post_install": [
+        "Remove-Item \"$dir\\vcredist_*exe\"",
+        "ensure \"$dir\\vnotex_files\" | Out-Null"
+    ],
     "shortcuts": [
         [
             "vnote.exe",
