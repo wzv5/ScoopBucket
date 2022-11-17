@@ -42,6 +42,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | pyembed-downloader   | -               | √        | ×        |
 | python-doc-zh-cn     | -               | √        | ×        |
 | python-doc           | -               | ×        | ×        |
+| python               | -               | ×        | ×        |
 | qqlive               | 腾讯视频        | √        | ×        |
 | qqmusic              | QQ 音乐         | √        | ×        |
 | rathole              | -               | ×        | ×        |
