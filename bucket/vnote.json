@@ -16,7 +16,6 @@
             "hash": "c79fa5e84fbe2ebdd53d2d7a7343c94a8fa6e8e574943e898eba141db5190600"
         }
     },
-    "extract_dir": "vnote",
     "post_install": [
         "Remove-Item \"$dir\\vc_redist.*.exe\"",
         "ensure \"$dir\\vnotex_files\" | Out-Null"
