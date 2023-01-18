@@ -1,8 +1,8 @@
 {
-    "version": "19.0.1.u10-3",
+    "version": "19.0.2.u7-1",
     "homepage": "https://openjdk.java.net/",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/extra/os/x86_64/openjdk-doc-19.0.1.u10-3-x86_64.pkg.tar.zst",
-    "hash": "ffd95db362075b67429ffd1e9e3c2ca862c24e0a511516d8d0507621cf8f4c89",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/extra/os/x86_64/openjdk-doc-19.0.2.u7-1-x86_64.pkg.tar.zst",
+    "hash": "d273ea77f5efe3b08c189ee1d5803466bda4f5b12317b650e5b48808c2af9876",
     "installer": {
         "script": [
             "# Robocopy is too slow!",
