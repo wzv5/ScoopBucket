@@ -32,7 +32,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | neteasemusic         | 网易云音乐      | √        | ×        |
 | nodejs-bin           | -               | ×        | ×        |
 | oleviewdotnet        | -               | ×        | ×        |
-| openark              | -               | √        | √        |
 | openjdk-doc          | -               | ×        | ×        |
 | overture             | -               | ×        | √        |
 | php                  | -               | ×        | √        |
