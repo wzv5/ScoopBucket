@@ -22,7 +22,6 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | aliyundrive          | 阿里云盘        | √        | ×        |
 | applicationinspector | -               | ×        | ×        |
 | besttrace            | -               | √        | ×        |
-| bh3                  | 崩坏 3（游戏）  | √        | ×        |
 | douyu                | 斗鱼直播        | √        | ×        |
 | evernote             | Evernote 国际版 | √        | ×        |
 | gost                 | -               | ×        | ×        |
@@ -56,6 +55,5 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | winscp               | -               | √        | √        |
 | winsw                | -               | ×        | ×        |
 | xnview               | -               | √        | √        |
-| yuanshen             | 原神（游戏）    | √        | ×        |
 | yy-thunks            | -               | ×        | ×        |
 | zabbix-agent         | -               | ×        | √        |
