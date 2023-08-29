@@ -1,9 +1,9 @@
 {
-    "version": "10.60.4",
+    "version": "10.61.4",
     "homepage": "https://evernote.com/",
     "license": "Freeware",
-    "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.60.4-win-ddl-stage-20230803182206-83e835872b4138cd342f6515bf2b6907b5fec1a6-setup.exe#/dl.7z",
-    "hash": "sha512:410240c59638b589f7cdb7666b2fe597eadc053e9eb305ac89b7c24d88ab10f20eb0d2c1a1f3e831bb1dbb0247ce9721de814466649704d986a97a631cbe5063",
+    "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.61.4-win-ddl-stage-20230829093334-c5f25cd742c827a190975c8ce28aff0a4d9d4e87-setup.exe#/dl.7z",
+    "hash": "sha512:0605dffa736093125a0081068fb714fc560cd4c49fceaa83faf599715c42bbd6ffb35f3fe9cf1b62c9f26371a13d762d7933f3839897c77d782c56dfc1c1ebfd",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\Unins*\", \"$dir\\resources\" -Force -Recurse",
