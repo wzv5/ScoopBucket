@@ -1,10 +1,10 @@
 {
-    "version": "3.9.8.25",
+    "version": "3.9.9.27",
     "homepage": "https://weixin.qq.com/",
     "license": "Freeware",
-    "url": "https://webcdn.m.qq.com/spcmgr/download/WeChat3.9.8.25.exe#/dl.7z",
-    "hash": "31ca72265d46110a4ec24f05ec3bfa99f0700895317396b89ec5f8d2e5f91950",
-    "extract_dir": "[3.9.8.25]",
+    "url": "https://webcdn.m.qq.com/spcmgr/download/WeChat3.9.9.27.exe#/dl.7z",
+    "hash": "b89e98d127aadfd1682bd1bda83031f40c35333d4e912f20febdebbe8e07d5bb",
+    "extract_dir": "[3.9.9.27]",
     "shortcuts": [
         [
             "wechat.exe",
