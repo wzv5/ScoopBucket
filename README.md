@@ -25,6 +25,7 @@ A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 | evernote             | Evernote 国际版 | √        | ×        |
 | gost                 | -               | ×        | ×        |
 | inno-setup           | -               | √        | ×        |
+| kazumi               | -               | √        | ×        |
 | lx-music-desktop     | 洛雪音乐助手    | √        | ×        |
 | nattypetester        | -               | ×        | ×        |
 | neteasemusic         | 网易云音乐      | √        | ×        |
