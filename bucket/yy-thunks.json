@@ -7,6 +7,6 @@
     "hash": "e6e2bb6e6b46f8b2b4af4cff2b2b754b123837a3c72f1cd5d7a5bfdf3c0df82a",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Chuyu-Team/YY-Thunks/releases/download/v$version/YY-Thunks-$version-Objs.zip"
+        "url": "https://github.com/Chuyu-Team/YY-Thunks/releases/download/v$version/YY-Thunks-Objs.zip"
     }
 }
