@@ -5,11 +5,11 @@
     "architecture": {
         "64bit": {
             "url": "https://cdn.zabbix.com/zabbix/binaries/stable/7.4/7.4.7/zabbix_agent-7.4.7-windows-amd64-openssl.zip",
-            "hash": "df0dd91ad1a541f399dc75b37e244f9bb19e19f298a918fec413ad20acad52e4"
+            "hash": "5818253e68d44035635a5df4d2f85370ca4f3dd4c4b2d34b451ab21845e9f420"
         },
         "32bit": {
             "url": "https://cdn.zabbix.com/zabbix/binaries/stable/7.4/7.4.7/zabbix_agent-7.4.7-windows-i386-openssl.zip",
-            "hash": "17217082e2d9b36d09f1a8270a93e23e4abdb05debd77fc1225e85a81265a300"
+            "hash": "54c42f4502d638b8a17c395251c678e8b32ad14c6b30f20d0702278f4829dfc4"
         }
     },
     "bin": [
