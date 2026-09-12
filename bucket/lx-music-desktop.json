@@ -1,16 +1,16 @@
 {
-    "version": "2.12.3",
+    "version": "2.12.4",
     "description": "Music player",
     "homepage": "https://github.com/lyswhut/lx-music-desktop",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.3/lx-music-desktop-v2.12.3-win_x64-green.7z",
-            "hash": "a893ede29b17452f4f814b39b707a82348ac2f479d3acac18db32bb076fc82d7"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.4/lx-music-desktop-v2.12.4-win_x64-green.7z",
+            "hash": "c047dc2e8753151d168a2778c742e2495dd002e25740776e30de27e2ae12284c"
         },
         "32bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.3/lx-music-desktop-v2.12.3-win7_x86-green.7z",
-            "hash": "156b631956f4836895aff6deb96f5277020dcd85cd9c1e2c9f173291296d2db5"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.4/lx-music-desktop-v2.12.4-win7_x86-green.7z",
+            "hash": "805ec6e6c53930bcb79ef89de1de1d904cbb62681bbc4161bf831a97a1ee86c8"
         }
     },
     "shortcuts": [
