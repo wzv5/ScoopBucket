@@ -1,3 +1,5 @@
+
+
 # Scoop Bucket
 
 A bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
