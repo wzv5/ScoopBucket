@@ -1,9 +1,9 @@
 {
-    "version": "11.35.6",
+    "version": "11.36.3",
     "homepage": "https://evernote.com/",
     "license": "Freeware",
-    "url": "https://win.desktop.evernote.com/builds/Evernote-11.35.6-win-ddl-stage-20260921153203-8169f7530ad554c5ec74c195eaf2eeab7e0d7911-setup.exe#/dl.7z",
-    "hash": "sha512:bce2862c7e3b93204f61530ef10a15e48ceaf2cb90fac70e26a49b9c2cfd9aab8c0f569f16a914ea83e6b994c93a2de3895dc43c3ce7c1515470d1db27b4ce76",
+    "url": "https://win.desktop.evernote.com/builds/Evernote-11.36.3-win-ddl-stage-20260928130013-88685786d8159d23429c11f332fea6323883b01b-setup.exe#/dl.7z",
+    "hash": "sha512:cf61334bca4f261b4a9d712495c8afc07d6afb4eb2ced9a8793e0bb202c08d8a1d0c8e85ead64624c5d13747471cc4dc6358ed701d53549db449c5b6b9a2016f",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$R0\", \"$dir\\resources\" -Force -Recurse",
